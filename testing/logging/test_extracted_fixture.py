@@ -8,7 +8,7 @@ import logging
 from _pytest.logging import caplog_records_key
 from _pytest.pytester import Pytester
 import pytest
-import fixture
+from pytest_fixtures import fixture
 
 
 logger = logging.getLogger(__name__)
